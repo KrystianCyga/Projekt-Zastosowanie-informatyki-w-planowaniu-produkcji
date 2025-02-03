@@ -1,0 +1,2 @@
+docker build -t scheduler-cpp-debug .
+docker run -it -p 8080:8080 scheduler-cpp-debug
